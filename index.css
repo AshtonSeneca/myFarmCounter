@@ -1,0 +1,87 @@
+@font-face{
+    src: url("Daydream-pixel-font/Daydream.ttf");
+    font-family: Daydream;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+    background: linear-gradient(#CFEE9E, #587B7F);
+    max-width: 80%;
+    margin: auto;
+    border: 3px solid black;
+    border-radius: 10px;
+    
+    padding: 10px;
+}
+
+body {
+    background-image: url("/farm2.jpg");
+    background-size: cover;
+    font-family: Daydream;
+    font-weight: bold;
+    text-align: center;
+    height: 100vh;
+    text-shadow: 1px 2px 1px white;
+}
+
+#title{
+    font-size: 40px;
+    margin-bottom: 35px;
+}
+h1 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+button {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin: auto auto;
+    align-items: center;
+    
+    border: 2px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    
+    font-family: inherit;
+    text-shadow: 1px 2px 1px black;
+}
+
+#increment-btn {
+    background: darkred;
+    transition: 0.3s;
+}
+
+#save-btn {
+    background: darkgreen;
+    transition: 0.3s;
+}
+
+#increment-btn:hover {
+    width: 220px;
+}
+
+#save-btn:hover {
+    width: 220px;
+}
+
